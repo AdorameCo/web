@@ -1,0 +1,55 @@
+.heading,
+.text {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.text {
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  font-family: var(--font-hero);
+}
+.content,
+.sectionTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.sectionTitle {
+  width: 768px;
+  align-items: flex-start;
+}
+.viewAll {
+  position: relative;
+  line-height: 150%;
+}
+.button,
+.title {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  border-radius: var(--br-5xs);
+  background-color: var(--black);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
+  padding: var(--padding-xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-hero);
+}
+.title {
+  width: 1312px;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--black);
+  font-family: var(--font-cinzel);
+}

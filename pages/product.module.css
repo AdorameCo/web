@@ -1,0 +1,24 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+}
+.downIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.product {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-93xl) var(--padding-45xl) var(--padding-45xl);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: var(--gap-5xl);
+}

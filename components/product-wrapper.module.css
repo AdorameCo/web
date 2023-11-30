@@ -1,0 +1,46 @@
+.placeholderImage {
+  position: relative;
+  width: 304px;
+  height: 304px;
+  object-fit: cover;
+}
+.heading,
+.text {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  width: 304px;
+}
+.text {
+  font-size: var(--font-size-sm);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.price {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 150%;
+}
+.content,
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.product {
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--black);
+  font-family: var(--font-hero);
+}

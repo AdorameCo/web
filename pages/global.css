@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Hero:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-hero: Hero;
+  --font-cinzel: Cinzel;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+  --font-size-29xl: 48px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-gray: rgba(0, 0, 0, 0.7);
+  --white: #fff;
+  --neutral-dark-gray: #505050;
+  --black: #000;
+  --light-grey: #a0a0a0;
+  --accent: #a25670;
+
+  /* Gaps */
+  --gap-61xl: 80px;
+  --gap-13xl: 32px;
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-29xl: 48px;
+  --gap-mini: 15px;
+  --gap-5xs: 8px;
+  --gap-31xl: 50px;
+  --gap-45xl: 64px;
+  --gap-sm: 14px;
+
+  /* Paddings */
+  --padding-45xl: 64px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-5xl: 24px;
+  --padding-93xl: 112px;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-31xl: 50px;
+  --br-3xs: 10px;
+}
